@@ -6,6 +6,10 @@ $colorPrimario:rgb(99, 99, 98);
 $colorSecundario:rgb(53, 53, 116);
 $titleSize: 32px;
 $textSize: 20px;
+
+body{
+    background-image: linear-gradient(to left, rgb(255, 255, 255), rgb(148, 199, 199));
+}
 .barra{
     background-color: $colorPrimario;
     margin-bottom: 10px;

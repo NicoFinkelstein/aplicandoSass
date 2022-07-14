@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: linear-gradient(to left, rgb(255, 255, 255), rgb(148, 199, 199));
+}
+
+.barra {
+  background-color: rgb(99, 99, 98);
+  margin-bottom: 10px;
+}
+.barra ul {
+  list-style: none;
+  display: flex;
+  justify-content: end;
+}
+.barra ul li {
+  padding: 10px;
+}
+.barra ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  opacity: 0.8;
+}
+.barra ul li a:hover {
+  opacity: 1;
+}/*# sourceMappingURL=styles.css.map */
